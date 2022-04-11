@@ -1,4 +1,6 @@
 footer{
     background-color: #111118;
-    color:yellow;
+}
+footer a {
+  color: white;  
 }
