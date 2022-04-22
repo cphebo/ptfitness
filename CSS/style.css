@@ -5,6 +5,7 @@ body {
   background-color: #f3de8a;
 }
 .head img {
+  border-radius: 10px;
   padding-left: 10px;
   padding-top: 10px;
 }
