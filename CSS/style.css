@@ -18,7 +18,7 @@ body {
 }
 /* Start of Top Navigation Menu CSS */
 .topnav {
-  display: flex;
+  display: block;
   overflow: hidden;
   background-color: #E3DEDE;
   position: sticky;
@@ -49,6 +49,9 @@ li {
   border-bottom: 3px solid blue;
 }
 /* End of Top Navigation Menu CSS */
+article {
+  text-align: center;
+}
 /* Start of Slideshow CSS */
 .slideshow-container {
   max-width: 1000px;
@@ -125,10 +128,9 @@ li {
 }
 /* End of Slideshow CSS */
 /* Start of Footer CSS */
-footer{
+.footer {
     background-color: #111118;
-}
-footer a {
-  color: white;  
+    text-align: left;
+    color: white; 
 }
 /* End of Footer CSS */
