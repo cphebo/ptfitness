@@ -145,6 +145,7 @@ article {
 }
 
 .video {
+  border-color: black;
   grid-row-start: 0;
   grid-row-end: 3;
   grid-column-start: 1;
@@ -160,10 +161,11 @@ article {
 /*End of Content CSS*/
 /* Start of Footer CSS */
 .footer {
+  padding: 25px;
     background-color: #111118;
     color: white;
     display: block;
-    text-align: center;
+    text-align: left;
 }
 .footer a:link, .footer a:visited {
   background-color: #2d2d39;
