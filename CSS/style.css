@@ -133,6 +133,34 @@ article {
   to {opacity: 1}
 }
 /* End of Slideshow CSS */
+
+/*Start of Content CSS*/
+
+.contentSection {
+  text-align: center;
+  padding: 20px;
+  display: grid;
+  gap: 10px;
+  font-size: 18px;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.video {
+  grid-row-start: 0;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.ad1, .ad2, .ad3 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+
+}
+
+/*End of Content CSS*/
 /* Start of Footer CSS */
 .footer {
     background-color: #111118;
