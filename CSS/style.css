@@ -161,6 +161,22 @@ article {
 }
 
 /*End of Content CSS*/
+/*Start of Services CSS*/
+
+.serviceContainer {
+text-align: center;
+padding: 20px;
+display: grid;
+gap: 10px;
+font-size: 18px;
+height: 50%;
+width: 100%;
+
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(3, 1fr);
+}
+/*End of Services CSS*/
+
 /* Start of Footer CSS */
 .footer {
   padding: 25px;
