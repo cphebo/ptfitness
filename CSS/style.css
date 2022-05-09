@@ -2,33 +2,39 @@ body {
   margin: 0;
   background-color: white;
 }
+
 p {
   font-size: 24px;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: 25% 50% 25%;
   background-color: #f3de8a;
   padding-top: 10px;
 }
+
 .grid-container img {
   border-radius: 10px;
   padding-left: 20px;
   padding-top: 10px;
 }
+
 .grid-container h1 {
   font-size: 84px;
   text-align: center;
 }
+
 /* Start of Top Navigation Menu CSS */
 .topnav {
   display: block;
   overflow: hidden;
   background-color: #E3DEDE;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -36,10 +42,12 @@ ul {
   overflow: hidden;
   font-weight: bold;
 }
+
 li {
   float: left;
   width: 24.9999%;
 }
+
 .topnav a {
   display: block;
   color: black;
@@ -53,10 +61,12 @@ li {
 .topnav a:hover {
   border-bottom: 3px solid blue;
 }
+
 /* End of Top Navigation Menu CSS */
 article {
   text-align: center;
 }
+
 /* Start of Slideshow CSS */
 .slideshow-container {
   max-width: 1000px;
@@ -67,8 +77,10 @@ article {
 .mySlides {
   display: none;
 }
-.prev, .next{
-  cursor:pointer;
+
+.prev,
+.next {
+  cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
@@ -81,13 +93,17 @@ article {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-.next{
+
+.next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
+
 .text {
   color: black;
   font-size: 15px;
@@ -97,14 +113,16 @@ article {
   width: 100%;
   text-align: center;
 }
-.numbertext{
+
+.numbertext {
   color: black;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
 }
-.dot{
+
+.dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -114,23 +132,39 @@ article {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active, .dot:hover{
+
+.active,
+.dot:hover {
   background-color: #717171;
 }
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
+
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
+
 /* End of Slideshow CSS */
 
 /*Start of Content CSS*/
@@ -154,7 +188,9 @@ article {
   grid-column-end: 3;
 }
 
-.ad1, .ad2, .ad3 {
+.ad1,
+.ad2,
+.ad3 {
   grid-column-start: 3;
   grid-column-end: 5;
 
@@ -164,32 +200,36 @@ article {
 /*Start of Services CSS*/
 
 .serviceContainer {
-text-align: center;
-padding: 20px;
-display: grid;
-gap: 10px;
-font-size: 18px;
-height: 50%;
-width: 100%;
+  text-align: center;
+  padding: 20px;
+  display: grid;
+  gap: 10px;
+  font-size: 18px;
+  height: 50%;
+  width: 100%;
 
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
+
 /*End of Services CSS*/
 
 /* Start of Footer CSS */
 .footer {
   padding: 25px;
-    background-color: #111118;
-    color: white;
-    display: block;
-    text-align: left;
+  background-color: #111118;
+  color: white;
+  display: block;
+  text-align: left;
 }
-.footer a:link, .footer a:visited {
+
+.footer a:link,
+.footer a:visited {
   padding: 2px;
   color: white;
   width: 10%;
   text-decoration: none;
   display: inline-block;
 }
+
 /* End of Footer CSS */

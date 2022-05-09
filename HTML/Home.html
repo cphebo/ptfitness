@@ -1,63 +1,55 @@
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="../CSS/style.css"> 
-  <div class="grid-container">
-    <div>
-      <img alt="Logo for PT Fitness" width="300" height="150" src="../Images/Logo.png">
-    </div>
-    <div>
-      <h1>PT Fitness</h1>
-    </div>
-    <title>PT</title>
+<link rel="stylesheet" href="../CSS/style.css">
+<title>PT</title>
+<script src="../scripts/header.js"></script>
+
+<!--Start Of Top Navigation Menu-->
+<ul class="topnav">
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="Booking.html">Booking</a></li>
+  <li><a href="Service.html">Our Services</a></li>
+  <li><a href="AboutUs.html">About us!</a></li>
+</ul>
+<!--End of Top Navigation Menu-->
+<br>
+<!-- Start Of Slideshow -->
+<script src="../Scripts/slideshow.js"></script>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="../Images/Temp1.png" style="width:1000px;height:400px">
+    <div class="text">Image One</div>
   </div>
-<body>
 
-    <!--Start Of Top Navigation Menu-->
-  <ul class="topnav">
-    <li><a href="Home.html">Home</a></li>
-    <li><a href="Booking.html">Booking</a></li>
-    <li><a href="Service.html">Our Services</a></li>
-    <li><a href="AboutUs.html">About us!</a></li>
-  </ul>
-    <!--End of Top Navigation Menu-->
-    <br>
-    <!-- Start Of Slideshow -->
-    <script src="../Scripts/slideshow.js"></script>
-    <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="../Images/Temp2.png" style="width:1000px;height:400px">
+    <div class="text">Image Two</div>
+  </div>
 
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="../Images/Temp1.png" style="width:1000px;height:400px">
-      <div class="text">Image One</div>
-    </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="../Images/Temp3.png" style="width:1000px;height:400px">
+    <div class="text">Image Three</div>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
 
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="../Images/Temp2.png"style="width:1000px;height:400px">
-      <div class="text">Image Two</div>
-    </div>
+<div style="text-align: center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="../Images/Temp3.png"style="width:1000px;height:400px">
-      <div class="text">Image Three</div>
-    </div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-
-    <div style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    
-    </div>
-    <!-- End of Slideshow -->
+</div>
+<!-- End of Slideshow -->
 <article>
   <p>
     PT Fitness is a personal trainer service offered by Shayne Cook-Mclaughlin, and Melvin Angelo Reyes. <br>
-    We offer a Membership service to use our training gym, as well as motivation services by many of our trained employees.
+    We offer a Membership service to use our training gym, as well as motivation services by many of our trained
+    employees.
   </p>
 </article>
 <div class="contentSection">
@@ -75,15 +67,6 @@
   </div>
 </div>
 </body>
-<!--Footer-->
-<div class="footer">
-  <footer>
-  <a href="AboutUs.html">Company</a><br>
-  <a href="Booking.html">Membership</a><br>
-  <a href="TermsAndConditions.html">Terms and Conditions</a><br>
-  <a href="Service.html">Our Services</a><br>
-  </footer>
-  <!--End of Footer-->
-</div>
-</html>
+<script src="../scripts/footer.js"></script>
 
+</html>

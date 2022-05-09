@@ -1,0 +1,1 @@
+document.write('<div class="footer"><footer><a href="AboutUs.html">Company</a><br><a href="Booking.html">Membership</a><br><a href="TermsAndConditions.html">Terms and Conditions</a><br><a href="Service.html">Our Services</a><br></footer></div>')
