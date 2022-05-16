@@ -10,20 +10,20 @@ p {
   padding-right: 10%;
 }
 /* Start of Header CSS */
-.grid-container {
+.header-grid-container {
   display: grid;
   grid-template-columns: 25% 50% 25%;
   background-color: #f3de8a;
   padding-top: 10px;
 }
 
-.grid-container img {
+.header-grid-container img {
   border-radius: 10px;
   padding-left: 20px;
   padding-top: 10px;
 }
 
-.grid-container h1 {
+.header-grid-container h1 {
   font-size: 84px;
   text-align: center;
 }
@@ -210,6 +210,35 @@ li {
 }
 
 /*End of Services CSS*/
+
+/* Start of AboutUs CSS */
+.staff-container {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.item1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.item2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.item3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.item4 {
+  grid-column: 2;
+  grid-row: 2;
+
+}
+
+
+/* End of AboutUs CSS */
 
 /* Start of Footer CSS */
 .footer {
