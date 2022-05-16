@@ -174,20 +174,18 @@ li {
   font-size: 18px;
 
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 200px, 200px, 200px;
 }
 
 .video {
   border-color: black;
-  grid-row-start: 0;
-  grid-row-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
-.ad1,
-.ad2,
-.ad3 {
+.ad1, .ad2, .ad3 {
   grid-column-start: 3;
   grid-column-end: 5;
 
@@ -198,15 +196,24 @@ li {
 
 .serviceContainer {
   text-align: center;
-  padding: 20px;
+  padding: 0px;
   display: grid;
-  gap: 10px;
+  gap: 25px;
   font-size: 18px;
   height: 50%;
   width: 100%;
 
+  border-radius: 1%;
+  background-image: linear-gradient(to bottom, rgba(246, 231, 173, 1) 0%, rgba(246, 231, 173, 1) 100%), linear-gradient(to bottom, rgba(246, 231, 173, 1) 0%, rgba(246, 231, 173, 1) 100%);
+  background-clip: content-box, padding-box;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
+}
+
+.serviceContainer img {
+  border-radius: 5%;
+  border: 1px solid black;
+  box-shadow: 5px 10px #888888;
 }
 
 /*End of Services CSS*/
