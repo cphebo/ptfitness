@@ -225,6 +225,8 @@ li {
   grid-template-columns: 50% 50%;
   padding-left: 10%;
   padding-right: 10%;
+  justify-items: center;
+  align-items: center;
 }
 .item1 {
   grid-column: 1;
